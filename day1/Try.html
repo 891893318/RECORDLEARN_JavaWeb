@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+   1. html由一对标签组成开始标签：<html>  结束标签：</html>
+   2. title表示网页标题
+   3. mata标签设置编码格式   例如<meta charset="UTF-8">
+   4. <br/>表示换行  br为单标签开始标签和结束标签是同一个，斜杠放在单词后面
+   5. p表示段落标签
+   6.img 图片标签 src表示路径   width和height表示图片大小 alt图片提示
+   7.标题<h1></h1>，<h2></h2>，<h3></h3>....<h6></h6>没有标题7
+   8.列表标签：<li></li>表是列表项(list item)
+        ol：有序列表  start 表示从*开始，type表显示类型
+        ul：无序列表
+   9.<b></b>表示加粗  <i></i>表示斜体  <u></u>表示下划线
+     <sup></sup>表示上标  <sub></sub>表示下标
+   10.&lt;小于  &gt;大于  &ge;大于等于  &le;小于等于  等等。。。。（百度：HTML实体）
+   11.<span></span>  进行特殊修饰，单独无任何效果。可用于将来对其进行特殊处理
+   12.<a></a>超链接  href表示链接地址 例如： <a href="https://www.baidu.com">百度一下</a>
+        target 默认值”_self“:本窗口打开     _blank在新窗口打开    _parent 在父窗口打开     _top:在顶窗口打开
+   13.<div></div> 层
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>网页</title>
+    </head>
+    <body>
+    hello world！<br/>你好世界！
+    <p>111</p>
+    <p>222</p>
+<!--    <img src="Picture/jietu.png" width="520" height="400" alt="图片"/>        -->
+    <h1>标题一</h1>
+    <h6>标题六</h6>
+    number
+    <ol type="A" start="3">
+        <li>2</li>
+        <li>4</li>
+        <li>2</li>
+        <li>2</li>
+    </ol>
+    <ul type="cicle">
+        <li>1</li>
+        <li>1</li>
+        <li>6</li>
+        <li><i><u><b>4</b></u></i></li>
+    </ul>
+    <br>H<sub>2</sub>O
+    <br>O<sup>2</sup>
+    <br>5&lt;10
+    <br>20&gt;10
+    <br>
+    <a href="https://www.baidu.com" >百度一下</a><br>
+    <a href="https://www.baidu.com" target="_self">百度一下</a><br>
+    <a href="https://www.baidu.com" target="_top">百度一下</a><br>
+    <a href="https://www.baidu.com" target="_blank">百度一下</a><br>
+    <a href="https://www.baidu.com" target="_parent">百度一下</a><br>
+    </body>
+</html>

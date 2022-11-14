@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* 被style标签包围表示CSS环境，可写CSS  code */
+            /* 标签样式 p表示标签名称 */
+            p{
+                color: brown;
+            }
+            /* .表示类样式 font20表示类样式名字 ，调用方式见<body>*/
+            .font20{
+                font-size: 20px;
+            }
+            /* ID样式 */
+            #ID{
+                background: #dd00ff;
+
+            }
+            /*组合标签 div内部*/
+            div p{
+                color: #6b771b;
+                font-size: 30px;
+                font-family: 楷体,serif;
+            }
+        </style>
+        <title>Title</title>
+    </head>
+    <body>
+        <!--已淘汰
+        <p><font color="#a52a2a">Paragraph1 （已淘汰）</font></p>
+        -->
+        <!--在head标签中使用style标签-->
+        <p>Paragraph1</p>
+        <div><p>段落2</p></div>
+        <p id="ID">Paragraph3</p>       <!-- ID 属性尽量保持唯一-->
+        <p class="font20">Paragraph4</p>
+    </body>
